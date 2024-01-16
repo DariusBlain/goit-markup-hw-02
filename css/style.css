@@ -29,12 +29,24 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.menu-url:hover {
+  color: #404bbf;
+}
+.menu-url:active {
+  color: #404bbf;
+}
 .contacts-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
+}
+.contacts-text:hover {
+  color: #404bbf;
+}
+.contacts-text:active {
+  color: #404bbf;
 }
 .hero-image {
   background-color: #2e2f42;
