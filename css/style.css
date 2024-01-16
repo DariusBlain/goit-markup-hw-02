@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background-color: #fafafa;
+  color: #434455;
+  background-color: #ffffff;
 }
 ul,
 ol {
@@ -12,10 +12,10 @@ a {
 }
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -27,30 +27,33 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .menu-url:hover {
   color: #404bbf;
 }
-.menu-url:active {
+.menu-url:focus {
   color: #404bbf;
+}
+.contacts {
+  font-style: normal;
 }
 .contacts-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
   color: #434455;
 }
 .contacts-text:hover {
   color: #404bbf;
 }
-.contacts-text:active {
+.contacts-text:focus {
   color: #404bbf;
 }
 .hero-image {
   background-color: #2e2f42;
 }
-h1 {
+.title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -60,17 +63,25 @@ h1 {
 }
 .btn-hero {
   cursor: pointer;
+  background-color: #4d5ae5;
   color: #fff;
-  font-family: Roboto;
+  font-family: 'Roboto' sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.btn-hero:hover {
+  background-color: #404bbf;
+}
+.btn-hero:focus {
+  background-color: #404bbf;
+}
 .feature {
   background-color: #fff;
 }
 .list-feature-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -86,6 +97,7 @@ h1 {
   background-color: #f4f4fd;
 }
 .portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -97,6 +109,7 @@ h1 {
   background-color: #fff;
 }
 .list-portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -114,6 +127,7 @@ h1 {
   background-color: #fff;
 }
 .our-portfolio-title {
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -122,6 +136,7 @@ h1 {
   text-transform: capitalize;
 }
 .list-our-portfolio-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -138,10 +153,10 @@ footer {
 }
 .logo-white {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
