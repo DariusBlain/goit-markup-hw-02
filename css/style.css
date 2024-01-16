@@ -48,6 +48,7 @@ h1 {
   letter-spacing: 0.02em;
 }
 .btn-hero {
+  cursor: pointer;
   color: #fff;
   font-family: Roboto;
   font-size: 16px;
