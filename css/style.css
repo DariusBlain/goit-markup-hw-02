@@ -15,8 +15,8 @@ a {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-web {
@@ -25,14 +25,14 @@ a {
 .menu-url {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .contacts-text {
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-style: normal;
   color: #434455;
 }
@@ -44,15 +44,16 @@ h1 {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .btn-hero {
   color: #fff;
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .feature {
   background-color: #fff;
@@ -61,85 +62,85 @@ h1 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .list-feature-text {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .portfolio {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .list-portfolio {
-  background: #fff;
+  background-color: #fff;
 }
 .list-portfolio-title {
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .list-portfolio-text {
   color: #434455;
   text-align: center;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .our-portfolio {
-  background: #fff;
+  background-color: #fff;
 }
 .our-portfolio-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .list-our-portfolio-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .list-our-portfolio-text {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .logo-white {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text-under {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
