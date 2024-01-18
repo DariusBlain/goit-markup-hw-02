@@ -3,13 +3,39 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 ul,
 ol {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ===========================  */
+
+/* ============HEADER===============  */
+
+.header {
+}
+
+.navigation {
+}
+
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -19,40 +45,51 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-web {
+
+.logo-black {
   color: #2e2f42;
 }
-.menu-url {
+
+.navigation-list {
+}
+
+.navigation-item {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu-url:hover {
+
+.navigation-item:hover,
+.navigation-item:focus {
   color: #404bbf;
 }
-.menu-url:focus {
-  color: #404bbf;
-}
+
 .contacts {
   font-style: normal;
 }
-.contacts-text {
+
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-text:hover {
+
+.contacts-link:hover,
+.contacts-linl:focus {
   color: #404bbf;
 }
-.contacts-text:focus {
-  color: #404bbf;
-}
-.hero-image {
+
+/* ===========================  */
+
+/* ============HERO===============  */
+
+.hero {
   background-color: #2e2f42;
 }
+
 .title {
   color: #fff;
   text-align: center;
@@ -61,9 +98,9 @@ a {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.btn-hero {
+
+.hero-btn {
   cursor: pointer;
-  background-color: #4d5ae5;
   color: #fff;
   font-family: 'Roboto' sans-serif;
   font-size: 16px;
@@ -71,31 +108,55 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.btn-hero:hover {
+
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
 }
-.btn-hero:focus {
-  background-color: #404bbf;
-}
+
+/* ===========================  */
+
+/* ===========FEATURE================  */
+
 .feature {
   background-color: #fff;
 }
-.list-feature-title {
+
+.feature-list {
+}
+
+.feature-list-item {
+}
+
+.feature-list-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.list-feature-text {
+
+.feature-list-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* ===========================  */
+
+/* ===========PORTFOLIO================  */
+
 .portfolio {
   background-color: #f4f4fd;
 }
+
+.portfolio-list {
+}
+
+.portfolio-list-item {
+}
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -105,10 +166,12 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.list-portfolio {
+
+.portfolio-list {
   background-color: #fff;
 }
-.list-portfolio-title {
+
+.portfolio-list-subtitle {
   color: #2e2f42;
   text-align: center;
   font-size: 20px;
@@ -116,16 +179,32 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.list-portfolio-text {
+
+.portfolio-list-text {
   color: #434455;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* ===========================  */
+
+/* ===========OUR-PORTFOLIO================  */
+
 .our-portfolio {
   background-color: #fff;
 }
+
+.our-portfolio-title {
+}
+
+.our-portfolio-item {
+}
+
+.our-portfolio-picture {
+}
+
 .our-portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -135,20 +214,27 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.list-our-portfolio-title {
+
+.our-portfolio-subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.list-our-portfolio-text {
+
+.our-portfolio-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-footer {
+
+/* ===========================  */
+
+/* ==========FOOTER=================  */
+
+.footer {
   background-color: #2e2f42;
 }
 .logo-white {
@@ -160,9 +246,11 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.text-under {
+.footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* ===========================  */
